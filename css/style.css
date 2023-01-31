@@ -1,0 +1,171 @@
+
+header {
+    width: 1350px;
+    
+}
+
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    
+}
+
+h1 {
+    text-align: center;
+    color: black;
+    background-color:#d5bdaf;
+    padding: 20px;
+    margin: 0%;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+nav ul {
+    display: block;
+    background-color:#e3d5ca;
+    text-align: center;
+    margin: 0%;
+    padding: 10px;
+
+}
+
+nav ul li {
+    display: inline;
+    margin-inline: 50px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+nav ul li a:hover {
+    color: white;
+    background-color:#9a8c98 ;
+    opacity: 0.5;
+
+}
+
+main {
+    padding-inline: 3em;
+    background-color: #dad7cd;
+}
+
+.profile-pic {
+    width: 200px;
+    height: 11em;
+    background-color:black;
+    margin: 0em 10px 10px 0em;
+    float: left;
+}
+
+p {
+    line-height: 1.8;
+    text-align: justify;
+}
+
+.my info p {
+
+    margin-bottom: 5em;
+    margin-top: 5em;
+    text-align: justify;
+
+}
+.aboutme {
+   
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+article {
+    border-bottom: 1px solid #000;
+    padding-bottom: 1em;
+    
+}
+
+.info {
+    list-style-type: none;
+}
+
+.info li {
+    display: block;
+}
+
+.head {
+    display: flex;
+}
+
+.label {
+    font-weight: bold;
+}
+
+
+.article {
+    column-count: 2;
+    column-gap: 2rem;
+}
+h2 {
+   
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}    
+h3 {
+   
+    font-family: Arial, Helvetica, sans-serif;
+    margin-block: 10px;
+}
+
+.my-hobbies {
+    list-style-type: square;
+    list-style-position: inside;
+}
+
+
+figure {
+    display: flex;
+}
+
+figcaption {
+    display:block;
+}
+
+figure img {
+    margin-right: 5px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    width: 300px;
+    height: 155px
+}
+
+figure figcaption {
+    text-align: justify;
+    margin-block: 0px;
+    margin-left: 30px;
+    
+}
+
+figcaption:hover {
+    background-color: beige;
+    transition: 0.5s;
+    cursor: default;
+}
+
+
+
+footer p {
+    text-align: center;
+    font-weight: bold;
+    padding: 5px;
+    background-color: #d5bdaf;
+
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
